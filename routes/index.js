@@ -14,7 +14,7 @@ var exec = require('child_process').exec;
 var fileType = require('file-type');
 var AdmZip = require('adm-zip');
 var fs = require('fs');
-var the_most_super_secret_key = 'SECRET_TOKEN_f8ed84e8f41e4146403dd4a6bbcea5e418123129';
+
 
 // prototype-pollution
 var _ = require('lodash');
