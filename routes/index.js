@@ -9,11 +9,12 @@ var streamBuffers = require('stream-buffers');
 var readline = require('readline');
 var moment = require('moment');
 var exec = require('child_process').exec;
-
+var http = require('http');
 // zip-slip
 var fileType = require('file-type');
 var AdmZip = require('adm-zip');
 var fs = require('fs');
+var secret_token = 'SECRET_TOKEN_f8ed84e8f41e4146403dd4a6bbcea5e418d23a9';
 
 // prototype-pollution
 var _ = require('lodash');
